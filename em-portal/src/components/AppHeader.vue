@@ -7,10 +7,10 @@ const scrolled = ref(false)
 const open = ref(false)
 
 const links = [
-  { to: '/portals/demo1/', label: '首页' },
-  { to: '/portals/demo1/products', label: '产品中心' },
-  { to: '/portals/demo1/about', label: '关于曜明' },
-  { to: '/portals/demo1/contact', label: '联系我们' },
+  { to: '/', label: '首页' },
+  { to: '/products', label: '产品中心' },
+  { to: '/about', label: '关于曜明' },
+  { to: '/contact', label: '联系我们' },
 ]
 
 function onScroll() {
