@@ -58,7 +58,7 @@ const related = computed(() =>
             :to="`/product/${r.id}`"
             class="rel-card"
           >
-            <img :src="r.image" :alt="r.name" />
+            <img :src="r.image" :alt="r.name" loading="lazy" />
             <div>
               <h4>{{ r.name }}</h4>
               <p>{{ r.tagline }}</p>

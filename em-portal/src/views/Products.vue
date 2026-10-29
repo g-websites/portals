@@ -39,7 +39,7 @@ const list = computed(() =>
           class="card"
         >
           <div class="img">
-            <img :src="p.image" :alt="p.name" />
+            <img :src="p.image" :alt="p.name" loading="lazy" />
             <span class="cat mono">{{ p.category }}</span>
           </div>
           <div class="body">

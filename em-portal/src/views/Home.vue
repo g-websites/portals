@@ -68,7 +68,7 @@ const caps = [
             :style="{ transitionDelay: (i % 3) * 80 + 'ms' }"
           >
             <div class="prod-img">
-              <img :src="p.image" :alt="p.name" />
+              <img :src="p.image" :alt="p.name" loading="lazy" />
               <span class="prod-cat mono">{{ p.category }}</span>
             </div>
             <div class="prod-body">
