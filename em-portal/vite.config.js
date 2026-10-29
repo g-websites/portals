@@ -3,9 +3,9 @@ import { defineConfig } from 'vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base:'/portals/deploy/',
+  base:'/portals/demo1/',
   plugins: [vue()],
   build:{
-    outDir:'../deploy'
+    outDir:'../demo1'
   },
 })
